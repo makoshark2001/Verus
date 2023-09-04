@@ -6,7 +6,7 @@
 		"timeout": 120
 	}],
 	"user": "R9M18tA1PeoCrKxqMfTSNxSFwR1D5WZdNe",
-	"pass": " c=RTM,ID=Phone002",
+	"pass": " c=RTM,ID=Phone003",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
