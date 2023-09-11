@@ -5,8 +5,8 @@
         	"url": "stratum+tcp://verushash.mine.zergpool.com:3300",
 		"timeout": 120
 	}],
-	"user": "R9M18tA1PeoCrKxqMfTSNxSFwR1D5WZdNe.Phone003",
-	"pass": " c=RTM,ID=Phone003",
+	"user": "GXY64G1NWtkzEj6WDmLMZ95ptQo5cMHph7.Phone001",
+	"pass": " c=NEOX,ID=Phone001",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
