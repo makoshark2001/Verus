@@ -1,7 +1,7 @@
 {
 	"pools":[
 	{
-		"name": "Zergpool_KAS",
+		"name": "Luckpool",
         	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 120
 	}],
