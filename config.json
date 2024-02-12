@@ -1,12 +1,12 @@
 {
 	"pools":[
 	{
-		"name": "Verus-Neoxa",
-        	"url": "stratum+tcp://verushash.mine.zergpool.com:3300",
+		"name": "Luckpool",
+        	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 120
 	}],
-	"user": "R9M18tA1PeoCrKxqMfTSNxSFwR1D5WZdNe.Phone001",
-	"pass": "c=RTM,ID=Phone001",
+	"user": "REqwgvMtD7xuiD7xgk2y7GmEAn4hccUoPb.Phone001",
+	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
