@@ -1,12 +1,12 @@
 {
 	"pools":[
 	{
-		"name": "Nicehash",
-        	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
+		"name": "Zergpool",
+        	"url": "stratum+tcp://verushash.mine.zergpool.com:3300",
 		"timeout": 120
 	}],
-	"user": "32v2tMnMQsZRGHM9pYbZX2HPq3pyycKV2k.Phone001",
-	"pass": "x",
+	"user": "R9M18tA1PeoCrKxqMfTSNxSFwR1D5WZdNe.Phone001",
+	"pass": "c=RTM,ID=Phone001",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
