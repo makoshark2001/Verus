@@ -1,11 +1,11 @@
 {
 	"pools":[
 	{
-		"name": "Zergpool",
+		"name": "Luckpool",
         	"url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 120
 	}],
-	"user": "RKpiycpYBRgCBBoW1uneDP7FPjZ8Spk64d.Phone001",
+	"user": "REqwgvMtD7xuiD7xgk2y7GmEAn4hccUoPb.Phone001",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
