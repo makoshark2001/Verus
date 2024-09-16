@@ -21,7 +21,15 @@ cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 EOF
-chmod +x start.sh
+
+cat << EOF > ~/ccminer/start-screen.sh
+#!/bin/sh
+screen -S Verus -d -m ./start.sh
+EOF
+
+
+chmod +x *.sh
+
 
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
