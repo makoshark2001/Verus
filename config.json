@@ -1,11 +1,11 @@
 {
 	"pools":[
 	{
-		"name": "Luckpool",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "Nicehash",
+        	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
 		"timeout": 120
 	}],
-	"user": "REqwgvMtD7xuiD7xgk2y7GmEAn4hccUoPb.Phone001",
+	"user": "32v2tMnMQsZRGHM9pYbZX2HPq3pyycKV2k.Phone001",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
