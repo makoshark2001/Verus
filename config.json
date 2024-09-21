@@ -5,7 +5,7 @@
         	"url": "stratum+tcp://verushash.auto.nicehash.com:9200",
 		"timeout": 120
 	}],
-	"user": "32v2tMnMQsZRGHM9pYbZX2HPq3pyycKV2k.Phone001",
+	"user": "32v2tMnMQsZRGHM9pYbZX2HPq3pyycKV2k.A03s-001",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
