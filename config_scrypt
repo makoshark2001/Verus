@@ -1,0 +1,16 @@
+{
+	"pools":[
+	{
+		"name": "zergpool",
+        	"url": "stratum+tcp://scrypt.mine.zergpool.com:3433",
+		"timeout": 120
+	}],
+	"user": "RUkstVi5YCJgBaLjaiu8DQ1gWhr7Mwcxo8.A03s-001",
+	"pass": " c=RVN,ID=A03s-001",
+	"algo": "scrypt",
+	"threads": 8,
+	"cpu-priority": 1,
+	"retry-pause": 5,
+	"api-allow": "192.168.0.0/16",
+	"api-bind": "0.0.0.0:4068"
+}
