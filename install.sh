@@ -16,7 +16,7 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config.json -O ~/ccminer/config.json
 wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_verushash.json -O ~/ccminer/config_verushash.json
-wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_sha25d.json -O ~/ccminer/config_sha256d.json
+wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_sha256d.json -O ~/ccminer/config_sha256d.json
 wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_scrypt.json -O ~/ccminer/config_scrypt.json
 chmod +x ~/ccminer/ccminer
 
