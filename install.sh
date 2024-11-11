@@ -15,6 +15,9 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config.json -O ~/ccminer/config.json
+wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_verushash.json -O ~/ccminer/config_verushash.json
+wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_sha25d.json -O ~/ccminer/config_sha256d.json
+wget https://raw.githubusercontent.com/makoshark2001/Verus/main/config_scrypt.json -O ~/ccminer/config_scrypt.json
 chmod +x ~/ccminer/ccminer
 
 cat << EOF > ~/ccminer/start.sh
@@ -22,10 +25,29 @@ cat << EOF > ~/ccminer/start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 EOF
 
+cat << EOF > ~/ccminer/start_verushash.sh
+#!/bin/sh
+~/ccminer/ccminer -c ~/ccminer/config_verushash.json
+EOF
+
+cat << EOF > ~/ccminer/start_sha256d.sh
+#!/bin/sh
+~/ccminer/ccminer -c ~/ccminer/config_sha256d.json
+EOF
+
+cat << EOF > ~/ccminer/start_scrypt.sh
+#!/bin/sh
+~/ccminer/ccminer -c ~/ccminer/config_scrypt.json
+EOF
+
+
+
 cat << EOF > ~/ccminer/start-screen.sh
 #!/bin/sh
 screen -S Verus -d -m ./start.sh
 EOF
+
+
 
 
 chmod +x *.sh
