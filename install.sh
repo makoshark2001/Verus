@@ -47,7 +47,20 @@ cat << EOF > ~/ccminer/start-screen.sh
 screen -S Verus -d -m ./start.sh
 EOF
 
+cat << EOF > ~/ccminer/start-screen-verushash.sh
+#!/bin/sh
+screen -S Verus -d -m ./start_verushash.sh
+EOF
 
+cat << EOF > ~/ccminer/start-screen-sha256d.sh
+#!/bin/sh
+screen -S Bitcoin -d -m ./start_sha256d.sh
+EOF
+
+cat << EOF > ~/ccminer/start-screen-scrypt.sh
+#!/bin/sh
+screen -S Scrypt -d -m ./start_scrypt.sh
+EOF
 
 
 chmod +x *.sh
