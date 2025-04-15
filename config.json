@@ -1,11 +1,11 @@
 {
 	"pools":[
 	{
-		"name": "Vipor-TradeOgre",
+		"name": "Vipor",
         	"url": "stratum+tcp://usse.vipor.net:5040",
 		"timeout": 120
 	}],
-	"user": "RUTH6fsMmaT9cgLSmh31S12C4cGZx15Bzw.A03s-001",
+	"user": "REqwgvMtD7xuiD7xgk2y7GmEAn4hccUoPb.A03s-001",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
